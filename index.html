@@ -4,12 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>한국 · 뉴욕 시간 마을</title>
-  <meta name="description" content="한국 시간과 뉴욕 시간을 함께 보여주는 귀여운 시간 마을 웹사이트" />
+  <meta name="description" content="한국 시간과 뉴욕 시간을 함께 보여주는 시간 마을 웹사이트" />
   <style>
     * { box-sizing: border-box; }
     :root {
       --glass: rgba(255,255,255,.16);
-      --glass-strong: rgba(255,255,255,.24);
       --stroke: rgba(255,255,255,.32);
       --ink: #fff7e8;
       --shadow: 0 28px 90px rgba(0,0,0,.32);
@@ -64,19 +63,11 @@
       color: rgba(255,255,255,.94);
     }
     h1 {
-      margin: 23px 0 16px;
+      margin: 23px 0 24px;
       font-size: clamp(42px, 7vw, 84px);
       line-height: .95;
       letter-spacing: -.07em;
       text-shadow: 0 14px 48px rgba(0,0,0,.42);
-    }
-    .subtitle {
-      max-width: 720px;
-      margin: 0 0 28px;
-      color: rgba(255,255,255,.88);
-      font-size: clamp(16px, 2vw, 21px);
-      line-height: 1.72;
-      text-shadow: 0 10px 28px rgba(0,0,0,.34);
     }
     .cards {
       display: grid;
@@ -157,7 +148,7 @@
       letter-spacing: -.04em;
       text-align: center;
     }
-    .floating-panel p { margin: 11px 2px 0; line-height: 1.55; font-size: 13px; font-weight: 700; opacity: .78; }
+    .floating-panel p { margin: 12px 2px 0; line-height: 1.55; font-size: 18px; font-weight: 900; opacity: .86; }
     footer {
       position: fixed;
       right: 18px;
@@ -185,7 +176,6 @@
     <section class="hero">
       <div class="badge">🌏 Korea · New York Time Village</div>
       <h1>한국 시간과 뉴욕 시간을 한눈에</h1>
-      <p class="subtitle">작은 시간 마을 안에서 캐릭터들이 공부하고, 컴퓨터를 하고, 카페에 가고, 데이트를 합니다. 마을 오른쪽의 뉴욕 구역은 미국 동부 시간으로 움직입니다.</p>
       <div class="cards">
         <article class="card">
           <h2 class="city">한국 / 서울</h2>
@@ -206,7 +196,7 @@
       <div class="label">마을 속 뉴욕 구역</div>
       <div class="place">New York</div>
       <div class="live" id="ny-live">--:-- --</div>
-      <p>안경 쓴 캐릭터가 책상 앞에서 공부하는 곳입니다. 이 구역은 미국 동부 시간으로 표시됩니다.</p>
+      <p>도비 시간</p>
     </aside>
   </main>
   <footer>Live clock · Korea and New York</footer>
